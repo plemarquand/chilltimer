@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Temperature Options" >
+        <ListPreference
+            android:defaultValue="F"
+            android:entries="@array/temperature_units_array"
+            android:entryValues="@array/temperature_units_value_array"
+            android:key="temperatureUnitPref"
+            android:title="Temperature Unit" />
+
+        <!--
+        <ListPreference
+            android:title="Theme"
+            android:key="theme"
+            android:entries="@array/theme_array"
+            android:entryValues="@array/theme_array_values" />
+        -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

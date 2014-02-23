@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Chill Timer</string>
+    <string name="action_settings">Settings</string>
+    <string name="vessel_prompt">Cooling method</string>
+
+    <string-array name="vessel_array">
+        <item>Fridge</item>
+        <item>Freezer</item>
+        <item>Ice</item>
+        <item>Ice Water</item>
+        <item>Salted Ice Water</item>
+        <item>Outside</item>
+    </string-array>
+    
+    <string-array name="temperature_units_array">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius_abrv">C</string>
+    <string name="fahrenheit_abrv">F</string>
+
+
+    <string name="start_chilling">Start Chilling</string>
+    <string name="until_description">Until your beverage is cold</string>
+    <string name="until_description_plural">Until your beverages are cold</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="ready">Ready!</string>
+    <string name="enjoy">Your beverage is chilled to perfection</string>
+    <string name="enjoy_plural">Your beverages are chilled to perfection</string>
+    <string name="minute_abbv">%1$d min</string>
+    <string name="beverage_count_prompt">How many beverages?</string>
+
+    <string-array name="beverage_count_array">
+        <item>1</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+
+    <string name="temperature_prompt">How Cold?</string>
+
+    <string-array name="temperature_count_array">
+        <item>Cellar (%1$d-%2$d°%3$s)</item>
+        <item>Cool (%1$d-%2$d°%3$s)</item>
+        <item>Cold (%1$d-%2$d°%3$s)</item>
+        <item>Very Cold (%1$d-%2$d°%3$s)</item>
+    </string-array>
+    
+    <string name="temperature">%1$d°%2$s</string>
+
+    <string-array name="temperature_description_array">
+        <item><b>Cellar:</b> Red wines benefit from being chilled to this temperature. Beers best served at celler temperatures are Bitters, Porters, English Ales and English Ciders.</item>
+        <item><b>Cool:</b> Beers best served cool are Pale and Amber Ales, Porters, and many Belgian beers.</item>
+        <item><b>Cold:</b> Perfect temperature for most white wines. Beers best served cold are Classic Pilsners, Golden Ales, Wits, Strong and Dark Lagers.</item>
+        <item><b>Very Cold:</b> Ideal for soda pop. Beers best served very cold are Pale Lagers, Golden Lagers, Low Alcohol beers and (non-english style) Ciders.</item>
+    </string-array>
+
+    <string name="start_timer">Start Timer</string>
+    <string name="title_activity_timer">Beverages Chilling…</string>
+    <string name="notification_text">Your beverage is chilled!</string>
+    <string name="notification_text_plural">Your beverages are chilled!</string>
+    <string name="outside_loading">Loading temperature information\nfor your location...</string>
+    <string name="location_not_found">Sorry, your location could not be determined.</string>
+    <string name="infinity">&#8734;</string>
+    <string name="too_warm">It\'s too warm outside to chill your\ndrink to the target temperature.</string>
+<string name="placeholder"> </string>
+</resources>

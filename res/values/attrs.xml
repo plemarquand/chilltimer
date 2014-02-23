@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ChillTimerFace">
+        <attr name="faceColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="outerRingThickness" format="dimension" />
+        <attr name="innerRingThickness" format="dimension" />
+        <attr name="outerRingAlpha" format="float" />
+        <attr name="innerRingAlpha" format="float" />
+        <attr name="percent" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="DiscreteSeekBar">
+        <attr name="minimum" format="integer" />
+        <attr name="tickCount" format="integer" />
+        <attr name="tickColor" format="color" />
+        <attr name="invalidRangeColor" format="color" />
+        <attr name="tickSize" format="dimension" />
+        <attr name="tickWidth" format="integer" />
+    </declare-styleable>
+    
+</resources>
